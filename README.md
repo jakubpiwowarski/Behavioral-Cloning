@@ -13,9 +13,13 @@ Welcome to the Autonomous Vehicle Model Training Repository! This repository con
 
   This Jupyter Notebook serves as the heart of data preprocessing. It covers essential steps such as:
 -Loading training images.
+
 -Cropping images to focus on relevant features.
+
 -Normalizing pixel values for consistent processing.
+
 -Creating well-structured training and testing datasets.
+
     
 4.drive.py:
   The Python script “drive.py” communicates with the Udemy autonomous vehicle simulator. It receives telemetry data (including camera images, speed, and steering angle) and passes them to the trained model. The model then predicts control commands, which drive.py sends back to the simulator.
