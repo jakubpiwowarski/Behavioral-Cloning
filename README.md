@@ -23,6 +23,7 @@ Welcome to the Autonomous Vehicle Model Training Repository! This repository con
 
     
 4.drive.py:
+
   The Python script “drive.py” communicates with the Udemy autonomous vehicle simulator. It receives telemetry data (including camera images, speed, and steering angle) and passes them to the trained model. The model then predicts control commands, which drive.py sends back to the simulator.
 
 ## Get Involved:
