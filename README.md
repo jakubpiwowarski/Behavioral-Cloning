@@ -12,6 +12,7 @@ Welcome to the Autonomous Vehicle Model Training Repository! This repository con
 3.Behavioral_Cloning.ipynb:
 
   This Jupyter Notebook serves as the heart of data preprocessing. It covers essential steps such as:
+  
 -Loading training images.
 
 -Cropping images to focus on relevant features.
